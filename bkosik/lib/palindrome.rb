@@ -6,8 +6,8 @@ class Palindrome
   end
 
   def reverse_string_check
-    string = validate_string(@palindrome_string)
-    (string.reverse == string) ? true : false
+    # string = validate_string(@palindrome_string)
+    (@palindrome_string.reverse == @palindrome_string) ? true : false
   end
 
   def more_complex_palindrome_check
